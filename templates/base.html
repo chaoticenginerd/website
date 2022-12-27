@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    {% block head %}{% endblock head %}
+    <!-- Inter Font -->
+    <link rel="preconnect" href="https://rsms.me/">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+
+    <link rel="stylesheet" href="{{ get_url(path=config.extra.stylesheet) | safe }}">
+    <link rel="icon" type="image/png" href="{{ get_url(path=config.extra.favicon) | safe }}">
+    <link rel="alternate" type="application/atom+xml" title="RSS" href="{{ get_url(path="atom.xml", trailing_slash=false) | safe }}">
+    <link rel="canonical" href="{{ current_url | safe }}">
+  </head>
+  <body>
+    <header>
+      <h1>Tosh's Internet Corner<h1>
+    </header>
+    <main>
+      {% block content %}{% endblock content %}
+    </main>
+    <footer>
+      <p>
+        Maintained with ♥ for a simple & performant web.
+      <p>
+    </footer>
+  </body>
+</html>

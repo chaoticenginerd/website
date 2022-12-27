@@ -1,0 +1,12 @@
+base_url = "chaoticenginerd.netlify.app"
+
+title = "chaoticenginerd.com"
+description = "Tosh's home on the internet."
+
+compile_sass = false
+build_search_index = false
+
+[extra]
+author = "Tosh"
+favicon = "favicon.png"
+stylesheet = "css/styles.css"
