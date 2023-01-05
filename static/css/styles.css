@@ -46,3 +46,15 @@ footer {
 img {
   max-width: 100%;
 }
+
+.posts-list {
+  padding-left: 0;
+  list-style: none;
+}
+.posts-list li {
+  padding-bottom: 0.75rem;
+}
+.posts-list time {
+  color: var(--contrast-alt);
+  font-size: smaller;
+}
