@@ -8,4 +8,18 @@
 
 {% block content %}
   {{ section.content | safe }}
+  <!-- Posts -->
+  <h2>Brain Dumps</h2>
+  <section>
+    {% set posts = get_section(path="posts/_index.md") %}
+    <p>{{ posts.description }}</p>
+    <ul class="posts-list">
+      {% for page in posts.pages %}
+      <li>
+        <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+        <time datetime="{{ page.date }}">{{ page.date | date(format="%b %d, %Y") }}</time>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
 {% endblock content %}
