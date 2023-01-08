@@ -7,12 +7,9 @@
 {% endblock head %}
 
 {% block content %}
-  {{ section.content | safe }}
-  <!-- Posts -->
-  <h2>Brain Dumps</h2>
   <section>
     {% set posts = get_section(path="posts/_index.md") %}
-    <p>{{ posts.description }}</p>
+    {{ posts.content | safe }}
     <ul class="posts-list">
       {% for page in posts.pages %}
       <li>
@@ -22,4 +19,5 @@
       {% endfor %}
     </ul>
   </section>
+  {{ section.content | safe }}
 {% endblock content %}
