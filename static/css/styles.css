@@ -37,16 +37,6 @@ footer {
   color: var(--contrast-alt);
 }
 
-@media (prefers-color-scheme: dark) {
-  body {
-    color: var(--base);
-    background-color: var(--contrast);
-  }
-  footer {
-    color: var(--base-alt);
-  }
-}
-
 img {
   max-width: 100%;
 }
