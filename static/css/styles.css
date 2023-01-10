@@ -69,7 +69,7 @@ pre code {
   padding-left: 0;
   list-style: none;
 }
-.posts-list li {
+.posts-list li:not(:last-child) {
   padding-bottom: 0.75rem;
 }
 .posts-list time {
