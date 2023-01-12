@@ -172,10 +172,11 @@ blockquote {
 }
 
 p code {
-  padding: 0.3rem;
+  padding: 0 0.5rem;
   border-radius: 0.5rem;
   font-family: "IBM Plex Mono", monospace;
   background-color: var(--base-alt);
+  color: var(--accent-alt);
 }
 
 pre {
