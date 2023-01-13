@@ -1,5 +1,5 @@
 +++
-title = "Tosh's Website"
+title = "Tosh's Internet Corner"
 template = "index.html"
 +++
 
