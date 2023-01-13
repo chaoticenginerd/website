@@ -4,6 +4,7 @@ template = "index.html"
 +++
 
 ## Contact
-If you have any questions, comments or just want to chat, feel free to reach out to me at **tosh** [at] **chaoticenginerd.com**.
+Feel free to reach out to me at **tosh** [at] **chaoticenginerd.com**.
+If you think that we would be a good fit for any collaborations, I would love to hear from you!
 
 Elsewhere on the internet, you can find me on the [Fediverse](https://fosstodon.org/@chaoticenginerd), [Codeberg](https://codeberg.org/chaoticenginerd), and on [Github](https://github.com/chaoticenginerd).
