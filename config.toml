@@ -6,6 +6,8 @@ description = "Tosh's home on the internet."
 compile_sass = false
 build_search_index = false
 
+generate_feed = true
+
 [markdown]
 highlight_code = true
 highlight_theme = "inspired-github"
