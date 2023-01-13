@@ -7,6 +7,7 @@
 {% endblock head %}
 
 {% block content %}
+  <h1>{{ section.title }}</h1>
   <section>
     {% set posts = get_section(path="posts/_index.md") %}
     {{ posts.content | safe }}
