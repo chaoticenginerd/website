@@ -11,6 +11,15 @@
   </head>
   <body>
     <header>
+      <nav>
+        <ul>
+          <li><a href="{{ get_url(path="@/_index.md") }}">Home</a></li>
+          <li><a href="{{ get_url(path="@/_index.md#brain-dumps") }}">Posts</a></li>
+          <li><a href="{{ get_url(path="@/_index.md#contact") }}">Contact</a></li>
+          <li><a href="{{ get_url(path="@/_index.md#support") }}">Support</a></li>
+          <li><a href="{{ get_url(path="atom.xml") }}">RSS</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
       {% block content %}{% endblock content %}

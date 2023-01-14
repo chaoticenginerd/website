@@ -188,6 +188,18 @@ pre code {
   font-family: "IBM Plex Mono", monospace;
   background: none;
 }
+
+nav ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+}
+nav a {
+  border-bottom: none;
+}
+
 .posts-list {
   padding-left: 0;
   list-style: none;
