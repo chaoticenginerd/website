@@ -7,7 +7,7 @@ image="posts/dev-env-setup-with-airflow/og.png"
 image_desc="An image containing rectangular boxes connected by arrows representing a graph."
 +++
 
-> Disclaimer: this is just an experiment.
+> **Disclaimer**: this is just an experiment.
 There are tools out there, like Ansible, that handle tasks like these much better.
 
 I recently came across an interesting video on Youtube titled [Don't Use Apache Airflow](https://www.youtube.com/watch?v=YQ056EKzCyw).
