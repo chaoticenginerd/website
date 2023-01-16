@@ -211,3 +211,8 @@ nav a {
   color: var(--contrast-alt);
   font-size: smaller;
 }
+
+::selection {
+  color: var(--base);
+  background: var(--contrast);
+}
