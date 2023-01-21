@@ -134,7 +134,7 @@ body {
   max-width: 65ch;
   font-size: 1.125rem;
   font-family: "IBM Plex Sans", sans-serif;
-  line-height: 1.5;
+  line-height: 1.6;
   color: var(--contrast);
   background-color: var(--base);
 }
