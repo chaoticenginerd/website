@@ -100,7 +100,7 @@ airflow.models.baseoperator.chain(*tasks)
 
 The `clone_dotfiles_repo` and `install_packages` are grouped together to specify that they are to be run in parallel.
 
-The complete code for the DAG can be found over on [Codeberg](https://codeberg.org/chaoticenginerd/dataswamp/src/branch/main/dev_env_setup_dag.py).
+The complete code for the DAG can be found over on [Codeberg](https://codeberg.org/chaoticenginerd/dataswamp/src/branch/main/pipelines/dev_env_setup_dag.py).
 
 ## The Result
 This is what the bootstrap DAG looks like.
